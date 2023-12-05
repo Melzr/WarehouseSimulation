@@ -89,6 +89,7 @@ public abstract class Building : MonoBehaviour,
         return "";
     }
 
+    // adds all the elements from the building's inventory to the provided content list
     public void GetContent(ref List<InventoryEntry> content)
     {
         content.AddRange(m_Inventory);
